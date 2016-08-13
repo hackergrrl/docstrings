@@ -30,7 +30,7 @@ var docstring = require('docstrings')
 ```
 
 Returns a string matching the string literal at the beginning of a function.
-Matches `""` and `''` literals as well as template strings (`\`\``).
+Matches `""` and `''` literals as well as template strings.
 
 ## Install
 
