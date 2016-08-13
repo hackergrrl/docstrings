@@ -6,7 +6,13 @@ module.exports = function (f) {
   }
 
   var res
-  var expr = esprima.parse(f.toString()).body[0].body.body[0].expression
+  var expr = esprima.parse(f.toString()).body[0].body
+  if (expr && expr.body && expr.body[0] && expr.body[0].expression) {
+    expr = expr.body[0].expression
+  } else {
+    return ''
+  }
+
   switch (expr.type) {
     case 'Literal':
       res = expr.value

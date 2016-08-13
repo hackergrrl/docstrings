@@ -22,9 +22,12 @@ test(function (t) {
      quux"
   }
 
+  function none() {}
+
   t.equal(ds(foo), 'returns foo')
   t.equal(ds(bar), 'returns bar')
   t.equal(ds(baz), 'multiline comments\nneed love\ntoo')
   t.equal(ds(quux), 'Returns quux')
+  t.equal(ds(none), '')
   t.end()
 })
