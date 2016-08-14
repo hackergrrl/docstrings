@@ -1,6 +1,8 @@
 var esprima = require('esprima')
 
 module.exports = function (f) {
+  "Interpret a string literal at the beginning of a function as its documentation."
+  
   if (typeof f !== 'function') {
     throw new TypeError('not a function')
   }
