@@ -16,5 +16,13 @@
   "devDependencies": {
     "tape": "^4.6.0"
   },
+  "keywords": [
+    "docstring",
+    "doc",
+    "docs",
+    "docstrings",
+    "documentation",
+    "clojure"
+  ],
   "license": "ISC"
 }
