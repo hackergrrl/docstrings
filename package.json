@@ -1,7 +1,7 @@
 {
   "name": "docstrings",
   "description": "docstrings in javascript",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Stephen Whitmore <stephen.whitmore@gmail.com>",
   "repository": {
     "url": "git://github.com/noffle/docstrings.git"
